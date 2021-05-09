@@ -20,6 +20,9 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
@@ -51,7 +54,6 @@ a {
      transition: all .3s ease-in-out;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -145,19 +147,17 @@ a {
 .header_section{
 	width: 100%; 
 	float: left;
-	background-image: url(../images/banner.jpg ) ;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	/* background-image: url(../images/banner.jpg); */
+   
 	/* height: auto; */
-	padding-top: 20px;	
+	/* padding-top: 20px;	 */
+    padding: 50;
 	background-size: cover;
     background-repeat: no-repeat;
 }
 
 .active{ 
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
 	padding-top: 5px; 
 	padding-bottom: 5px; 
 	color: #000;
@@ -192,18 +192,39 @@ a {
     padding-top: 30px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url(../images/banner6.jpg );
+    filter: grayscale(90%);
+    filter: saturate(50%);
+    /* Set a specific height */
+    min-height: 900px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:initial;
+  }
 .taital{
-	/* width: 57%;  */
-	float: center;
-	font-size: 30px;
+    
+    /* background-color: white; */
 	color: black;
+    text-align: center;
+    padding: 1px;
+    /* width:min-content; */
+    /* background-color: #212121; */
+	float: center;
+    font-family: 'Ubuntu', sans-serif;
+    /* padding-top: 50px; */
 	text-align: center;
 }
 
-.ram{  float: center; }
+.ram{ float: center; padding: 50px; }
 
 .consectetur_text{
 	/* width: 90%; */
+    padding: 50px;
 	float: center;
 	font-size: 24px;
 	color: black;
