@@ -70,7 +70,11 @@ h6 {
 }
 
 h1 {
-     font-size: 48px
+    color: black;
+     font-size: 50px;
+     text-shadow: 2px 2px 4px white;
+     
+
 }
 
 h2 {
@@ -107,9 +111,10 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #212121;
+    
      text-decoration: none!important;
-     opacity: 1
+     opacity: 1;
+     
 }
 
 button:focus {
@@ -198,7 +203,7 @@ a {
     filter: grayscale(90%);
     filter: saturate(50%);
     /* Set a specific height */
-    min-height: 900px; 
+    min-height: 750px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -236,15 +241,19 @@ a {
 .banner_bt{
 	width: 55%;
 	float: center;
+    margin:100px;
+    padding-top:150px;
+    padding-left:570px;
 }
 
 .read_bt {
-    width: 100%;
-    float: center;
-    background-color: #ffffff;
-    border-radius: 60px;
-    height: 100px;
-    font-size: 25pt;
+    width: 70%;
+    /* float: center; */
+    background-color: whitesmoke;
+    border-radius: 40px;
+    height: 50px;
+    font-size: 20pt;
+   
     /* border:0px;  */
     
 }
@@ -278,19 +287,21 @@ a {
 	float: left;
 }
 
-.about_taital{
+/* .h2 .about_taital{
 	width: 100%;
 	float: left;
 	font-size: 50pt;
-	text-align: right;
+	text-align: left;
+    font-family: 'ubuntu';
 
-}
+} */
 .about_taital_1{
   width: 100%;
   float: left;
   font-size: 50pt;
-  text-align: right;
+  text-align: left;
   margin-top: 70px;
+  font-family: 'ubuntu';
 
 }
 
@@ -328,21 +339,51 @@ a {
 .gallery_main{
 	width: 100%;
 	float: left;
-	background-color:#f7941d;
+	background-color:#212121;
 	height: auto;
 }
 
 .sed_text{
 	font-size: 19pt;
-    color: #060401;
-    text-align: right;
+    color: #4CAF50;
+    text-align: left;
     line-height: 40px;
     width: 87%;
-    float: right;
+    float: left;
     margin-right: 0px;
 
 }
+.the_problem{
+    font-size: 19pt;
+    color: #4CAF50;
+    text-align: left;
+    line-height: 40px;
+    width: 87%;
+    float: left;
+    margin-right: 0px;
+}
+.our_solution{
+   
+        font-size: 19pt;
+        color: #4CAF50;
+        text-align: left;
+        line-height: 40px;
+        width: 87%;
+        float: left;
+        margin-right: 0px;
+  
+}
+.purpose{
+   
+    font-size: 19pt;
+    color: #4CAF50;
+    text-align: left;
+    line-height: 40px;
+    width: 87%;
+    float: left;
+    margin-right: 0px;
 
+}
 .images{
 	margin-top: 20px;
 }
@@ -763,7 +804,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	float: left;
 	background-color: #1d1b1c;
 	height: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	/* padding-top: 20px;
+	padding-bottom: 20px; */
 }
 .footer-logo{  }
