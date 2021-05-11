@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #666666;
-    background: #dddddd;
+    background: #212121;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -38,7 +38,7 @@ a:focus {
     width: 100%;
     max-width: 1366px;
     margin: 0 auto;
-    background: #ffffff;
+    background: #212121;
 }
 
 .back-to-top {
@@ -161,6 +161,8 @@ a:focus {
 .nav-bar .container-fluid {
     padding: 0;
 }
+
+
 
 .nav-bar.nav-sticky {
     position: fixed;
@@ -384,7 +386,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #fdbe33;
+    background: #4CAF50;
 }
 
 .page-header h2 {
@@ -623,12 +625,12 @@ a:focus {
     letter-spacing: 1px;
     color: #030f27;
     border-radius: 0;
-    background: #fdbe33;
+    background: #4CAF50;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #fdbe33;
+    color: #4CAF50;
     background: #030f27;
 }
 
@@ -654,13 +656,9 @@ a:focus {
     align-items: flex-start;
 }
 
+
 .fact .fact-icon {
-    position: relative;
-    margin: 7px 15px 0 15px;
-    width: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  padding:25px;
 }
 
 .fact .fact-icon [class^="flaticon-"]::before {
@@ -843,7 +841,7 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fdbe33;
+    background: #4CAF50;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -858,13 +856,13 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fdbe33;
+    background: #4CAF50;
     border-radius: 50%;
     transition: all 200ms;
 }
 
 .video .btn-play:hover:after {
-    background-color: darken(#fdbe33, 10%);
+    background-color: darken(#4CAF50, 10%);
 }
 
 .video .btn-play img {
