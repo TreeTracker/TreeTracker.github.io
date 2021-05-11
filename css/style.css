@@ -502,12 +502,13 @@ a:focus {
 }
 
 .feature .col-md-12 {
-    background: #030f27;
+    background: #424242;
+    color: #4CAF50;
 }
     
 .feature .col-md-12:nth-child(2n) {
-    color: #030f27;
-    background: #fdbe33;
+    color: #212122;
+    background: #4CAF50;
 }
 
 .feature .feature-item {
@@ -569,14 +570,14 @@ a:focus {
 
 .feature .feature-text h3 {
     margin: 0 0 10px 0;
-    color: #fdbe33;
+    color: #4CAF50;
     font-size: 25px;
     font-weight: 600;
 }
 
 .feature .feature-text p {
     margin: 0;
-    color: #fdbe33;
+    color: #4caf50;
     font-size: 18px;
     font-weight: 400;
 }
@@ -870,7 +871,7 @@ a:focus {
     z-index: 3;
     max-width: 100%;
     width: auto;
-    height: auto;
+    height: 90%;
 }
 
 .video .btn-play span {
@@ -925,9 +926,12 @@ a:focus {
 /*********** Team CSS **********/
 /*******************************/
 .team {
-    position: relative;
+    position:relative;
     width: 100%;
+    text-align: center;
     padding: 45px 0 15px 0;
+    align-items: center;
+    align-self:center;
 }
 
 .team .team-item {
@@ -937,7 +941,7 @@ a:focus {
 }
 
 .team .team-img {
-    position: relative;
+    position: center;
 }
 
 .team .team-img img {
@@ -948,14 +952,14 @@ a:focus {
     position: relative;
     padding: 25px 15px;
     text-align: center;
-    background: #030f27;
+    background: #414141;
     transition: .5s;
 }
 
 .team .team-text h2 {
     font-size: 20px;
     font-weight: 600;
-    color: #fdbe33;
+    color: #4caf50;
     transition: .5s;
 }
 
@@ -965,35 +969,14 @@ a:focus {
 }
 
 .team .team-item:hover .team-text {
-    background: #fdbe33;
+    background: #212121;
 }
 
 .team .team-item:hover .team-text h2 {
-    color: #030f27;
+    color: #4caf50;
     letter-spacing: 1px;
 }
 
-.team .team-social {
-    position: absolute;
-    width: 100px;
-    top: 0;
-    left: -50px;
-    display: flex;
-    flex-direction: column;
-    font-size: 0;
-}
-
-.team .team-social a {
-    position: relative;
-    left: 0;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    color: #ffffff;
-}
 
 .team .team-item:hover .team-social a:first-child {
     background: #00acee;
@@ -2055,8 +2038,8 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #030f27;
-    color: #ffffff;
+    background: #212121;
+    color: #212121;
 }
 
 .footer .footer-contact,
@@ -2064,6 +2047,7 @@ a:focus {
 .footer .newsletter {
     position: relative;
     margin-bottom: 45px;
+    color: #4CAF50;
 }
 
 .footer h2 {
@@ -2072,7 +2056,10 @@ a:focus {
     padding-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
-    color: #fdbe33;
+    color: #4CAF50;
+}
+.footer a {
+    color: #4CAF50;
 }
 
 .footer h2::after {
@@ -2082,13 +2069,14 @@ a:focus {
     height: 2px;
     left: 0;
     bottom: 0;
-    background: #fdbe33;
+    background: #4CAF50;
 }
+
 
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #4CAF50;
     transition: .3s;
 }
 
@@ -2101,7 +2089,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #fdbe33;
+    color: #4CAF50;
     letter-spacing: 1px;
 }
 
@@ -2127,49 +2115,17 @@ a:focus {
 
 .footer .footer-social a i {
     font-size: 15px;
-    color: #ffffff;
+    color: #4CAF50;
+    border-color: black ;
 }
 
 .footer .footer-social a:hover {
-    background: #fdbe33;
-    border-color: #fdbe33;
+    background: green;
+    border-color: green;
 }
 
 .footer .footer-social a:hover i {
-    color: #030f27;
-}
-
-.footer .newsletter .form {
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.footer .newsletter input {
-    height: 50px;
-    border: 2px solid #121518;
-    border-radius: 0;
-}
-
-.footer .newsletter .btn {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 40px;
-    padding: 8px 10px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #fdbe33;
-    background: #121518;
-    border-radius: 0;
-    border: 2px solid #fdbe33;
-    transition: .3s;
-}
-
-.footer .newsletter .btn:hover {
-    color: #121518;
-    background: #fdbe33;
+    color: #4CAF50;
 }
 
 .footer .footer-menu .f-menu {
@@ -2190,7 +2146,7 @@ a:focus {
 }
 
 .footer .footer-menu .f-menu a:hover {
-    color: #fdbe33;
+    color: #4CAF50;
 }
 
 .footer .footer-menu .f-menu a:last-child {
@@ -2206,7 +2162,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #ffffff;
+    color: #4CAF50;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -2214,13 +2170,13 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #fdbe33;
+    color: #4CAF50;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 .footer .copyright p a:hover {
-    color: #ffffff;
+    color: #4CAF50;
 }
 
 @media (max-width: 768px) {
